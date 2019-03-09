@@ -2834,7 +2834,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #002041;
 			color: #c8ece9;
 		}
 
@@ -4133,18 +4133,20 @@ input, select, textarea {
 	  
 	  margin-top: 10px;
 		height: 180px;
-		 width: 300px;
+		 width: 320px;
 		 border-radius: 10px;
 
 	  }
 	  
 	  #sponsor_2
   {
+
 	margin-top: 10px;
 	height: 200px;
 	 width: 300px;
 	 border-radius: 10px;
 		
+
   }
   #sponsor_3
   {
@@ -4165,4 +4167,4 @@ input, select, textarea {
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
-  }
+}
