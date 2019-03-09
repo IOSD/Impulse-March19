@@ -22,6 +22,8 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
+	overflow-x: hidden;
+	
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -140,11 +142,6 @@ input, select, textarea {
 		}
 
 	a {
-		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2867,6 +2864,9 @@ input, select, textarea {
 
 			.wrapper.style1 header.major p {
 				color: #c8ece9;
+				font-size: 18px;
+				line-height: 0.5em;
+				
 			}
 
 			.wrapper.style1 label {
@@ -3459,7 +3459,7 @@ input, select, textarea {
 	#header {
 		-moz-transition: background-color 0.2s ease;
 		-webkit-transition: background-color 0.2s ease;
-		-ms-transition: background-color 0.2s ease;
+		-ms-transition: background-color 0.2s ease; 
 		transition: background-color 0.2s ease;
 		background: #2e3842;
 		height: 3em;
@@ -4020,6 +4020,7 @@ input, select, textarea {
 		
 		text-align: center;
 		padding: 23px;
+		font-size: 50px;
 		
 		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	
@@ -4040,6 +4041,11 @@ input, select, textarea {
 	  }
 
 	  #navbarSupportedContent a{
+		  -moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		  -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		  -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		  text-decoration: none;
 		  font-weight: 700;
 		  font-size: 20px;
 		  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -4091,8 +4097,68 @@ input, select, textarea {
 	  .align{
 		  align-items: center;
 	  }
-	  .mait_hacks
-	  {
-		  text-align: justify;
-		  text-justify: inter-word;
+
+	  .fixed-top.scrolled {
+		background: #172634;
+		transition: background 500ms;
+	}
+
+	.navbar{
+		height: 70px;
+	}
+
+	.bigfont{
+		font-size: 30px;
+	}
+
+	.carousel-inner{
+		height: 500px;
+		width: 100%;
+	}
+
+	.container{
+		width: 1000px;
+	}
+	.mait_hacks
+	{
+		text-align: justify;
+		text-justify: inter-word;
+	}
+	#sponsor_1
+	{   
+	  
+	  margin-top: 10px;
+		height: 180px;
+		 width: 300px;
+		 border-radius: 10px;
+
 	  }
+	  
+	  #sponsor_2
+  {
+	margin-top: 10px;
+	height: 200px;
+	 width: 300px;
+	 border-radius: 10px;
+		
+  }
+  #sponsor_3
+  {
+	
+		height: 80px;
+		 width: 160px;
+		 border-radius: 10px;
+  }
+  #sponsor_4
+  {
+	
+	  height: 80px;
+	   width: 160px;
+	   border-radius: 10px;	
+  }
+
+  .middle{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
