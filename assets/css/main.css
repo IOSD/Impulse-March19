@@ -4240,7 +4240,10 @@ button.primary {
     }
     .lg-head{
   	grid-column: 1/8;
-    }
+		}
+		.lg1{
+			grid-column: 2/3;
+		}
     #mobile{
   	display: none;
     }
@@ -4253,7 +4256,8 @@ button.primary {
       border-radius: 100%;
       padding: 10px;
       transition: all 0.2s;
-  }
+	}
+	
   .member img:hover {
     cursor: pointer;
   	transform: scale(1.1);
