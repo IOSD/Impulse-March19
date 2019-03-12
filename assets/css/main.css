@@ -4395,7 +4395,13 @@ button.primary {
 			font-size: 1rem;
 		}
 
-
 		.show{
 			background-color: #172634;
 		}
+.event-image{
+	width: 722px;
+	height : 575px;
+}
+.event-font{
+	font-size: 40px;
+}
