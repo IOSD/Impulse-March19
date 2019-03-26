@@ -4212,14 +4212,21 @@ button.primary {
   	width: 80%;
   	margin: auto;
   	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
+		}
+		.team-leader-container_12{
+			display: grid;
+			width: 80%;
+			margin: auto;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+			}
 
     .team-leader-container2{
   	display: grid;
   	width: 80%;
   	margin: auto;
   	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+		}
+		
     .team-leader-container h2, .team-leader-container2 h2{
     	text-align: center;
     }
@@ -4240,13 +4247,15 @@ button.primary {
   	grid-column: 2/3;
     }
     .crft-head{
-  	grid-column: 2/4;
+		grid-column: 2/4;
+		display: inline;
     }
     .crft1 {
-  	  grid-column: 2;
-    }
+  	  grid-column: 1;
+		}
+	
     .pr-head{
-  	grid-column: 4/6;
+  	grid-column: 4/10;
     }
     .lg-head{
   	grid-column: 1/8;
@@ -4290,18 +4299,23 @@ button.primary {
   	.member{
   	  width: 100%;
       height: 250px;
-  	}
+		}
+		.crft-head
+		{
+			margin-left: 25%;
+		}
 
     .member img{
       height: 200px;
       width: 200px;
       padding: 10px;
     }
-  	.team-leader-container, .team-leader-container2{
+  	.team-leader-container, .team-leader-container2, .team-leader-container_12{
   	  display: block;
   	  width: 70%;
   	  margin: auto;
-  	}
+		}
+		
   	#desktop{
   	  display: none;
   	}
